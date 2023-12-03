@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Table Reservation</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Cardo:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/Formstyle.css" />
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		  >
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<ul class="navbar-nav ms-auto">
+			  <div class="navbar-nav">
+				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				<a class="nav-link" href="#about">About us</a>
+				<a class="nav-link" href="#team">Our Team</a>
+				<a class="nav-link" href="#menu">Menu</a>
+				<a class="nav-link" href="#Reviews">Reviews</a>
+				<a class="nav-link" href="#events">Events</a>
+				<a class="nav-link" href="Contact.html" target="_self">Contact Us</a>
+			  </div>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	<div id="Reservation" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="Reservation-form">
+						<div class="form-header">
+							<h1>Make your reservation</h1>
+						</div>
+						<form>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Name</span>
+										<input class="form-control" type="text" required>
+									</div>	
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Contact Number</span>
+										<input class="form-control" type="text" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Email</span>
+										<input class="form-control" type="email" required>
+									</div>	
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Country</span>
+										<input class="form-control" type="text" required>
+									</div>	
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Check in Date</span>
+										<input class="form-control" type="date" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Time</span>
+										<select class="form-control">
+											<option value="00:00">12.00 AM</option>
+                <option value="00:30">12.30 AM</option>
+                <option value="01:00">01.00 AM</option>
+                <option value="01:30">01.30 AM</option>
+                <option value="02:00">02.00 AM</option>
+                <option value="02:30">02.30 AM</option>
+                <option value="03:00">03.00 AM</option>
+                <option value="03:30">03.30 AM</option>
+                <option value="04:00">04.00 AM</option>
+                <option value="04:30">04.30 AM</option>
+                <option value="05:00">05.00 AM</option>
+                <option value="05:30">05.30 AM</option>
+                <option value="06:00">06.00 AM</option>
+                <option value="06:30">06.30 AM</option>
+                <option value="07:00">07.00 AM</option>
+                <option value="07:30">07.30 AM</option>
+                <option value="08:00">08.00 AM</option>
+                <option value="08:30">08.30 AM</option>
+                <option value="09:00">09.00 AM</option>
+                <option value="09:30">09.30 AM</option>
+                <option value="10:00">10.00 AM</option>
+                <option value="10:30">10.30 AM</option>
+                <option value="11:00">11.00 AM</option>
+                <option value="11:30">11.30 AM</option>
+                <option value="12:00">12.00 PM</option>
+                <option value="12:30">12.30 PM</option>
+                <option value="13:00">01.00 PM</option>
+                <option value="13:30">01.30 PM</option>
+                <option value="14:00">02.00 PM</option>
+                <option value="14:30">02.30 PM</option>
+                <option value="15:00">03.00 PM</option>
+                <option value="15:30">03.30 PM</option>
+                <option value="16:00">04.00 PM</option>
+                <option value="16:30">04.30 PM</option>
+                <option value="17:00">05.00 PM</option>
+                <option value="17:30">05.30 PM</option>
+                <option value="18:00">06.00 PM</option>
+                <option value="18:30">06.30 PM</option>
+                <option value="19:00" selected="">07.00 PM</option>
+                <option value="19:30">07.30 PM</option>
+                <option value="20:00">08.00 PM</option>
+                <option value="20:30">08.30 PM</option>
+                <option value="21:00">09.00 PM</option>
+                <option value="21:30">09.30 PM</option>
+                <option value="22:00">10.00 PM</option>
+                <option value="22:30">10.30 PM</option>
+                <option value="23:00">11.00 PM</option>
+                <option value="23:30">11.30 PM</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Adults</span>
+										<select class="form-control">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Children</span>
+										<select class="form-control">
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								<div class="col-md-6">
+								<div class="form-group">
+									<span class="form-label">Special Requests: </span>
+									<textarea class="form-control" rows="5" id="comment"></textarea>
+								  </div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-btn">
+										<button class="submit-btn">Submit</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
